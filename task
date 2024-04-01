@@ -1,0 +1,35 @@
+-PSVM (args)
+
+public class HelloJava {
+   public static void main(String args[]) {
+     System.out.println("Hello World Java") ;
+  }
+}
+
+o/p: Hello World Java
+
+-Without arg
+
+public class HelloJava {
+   public static void main() {
+     System.out.println("Hello World Java") ;
+  }
+}
+
+o/p: please define the main method as public static void main(String[]args)
+
+-SPVM(args)
+public class HelloJava {
+   static public void main(String args[]) {
+     System.out.println("Hello World Java") ;
+  }
+}
+o/p:Hello World Java
+
+-PSM(args)
+public class HelloJava {
+   public static main(String args[]) {
+     System.out.println("Hello World Java") ;
+  }
+}
+o/p:invalid method declaraion
